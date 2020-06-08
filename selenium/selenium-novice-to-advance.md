@@ -1,9 +1,6 @@
-# Selenium Basics course outline
-# Actions
+# Selenium novice to advance course outline
 
-# Right button click
-
-|   | Title | Breakdown | Time |
+| Module | Title | Breakdown | Time |
 | --- | --- | --- | --- |
 | 1 | Introduction | What is Selenium |   |
 |   |   | Selenium History |   |
@@ -62,10 +59,16 @@
 |   |   | Element Locators |   |
 |   |   | Actions  |   |
 |   |   | Custom Click & Type  |   |
+|   |   | Select  |   |
+|   |   | Quotes  |   |
+|   |   | SlowLoadableComponent  |   |
+|   |   | Quotes  |   |
 |   |   | Right button Click  |   |
 |   |   | Keyboard Key Press (single, multiple) |   |
 |   |   | Execute Java Scripts |   |
 |   |   | Handling Ajax |   |
+|   |   | AjaxElementLocator |   |
+|   |   | Custom ElementLocator based on your UI |   |
 |   |   | Handling Dynamice Elements |   |
 |   |   | What are xPath or CSS selector |   |
 |   |   | Dynamic xPath |   |
@@ -75,7 +78,10 @@
 |	|	| Selections Popoups |	|
 |	|	| Selections Combomox |	|
 |   |   | different type of waits |   |
+|   |   | fluent wait |   |
+|   |   | webdriver wait |   |
 |   |   | why to use and not to use thread.sleep  |   |
+|   |   | Expected Conditions |   |
 |	|	| Managing Local Browser:Chrome	|	|
 |	|	| Managing Local Browser:Firefox	|	|
 |	|	| Managing Local Browser:Opera	|	|
@@ -85,10 +91,17 @@
 |	|	| Managing Desired Capabilities	|	|
 |	|	| Managing Sessions & Cookies	|	|
 |	|	|	|	|
-| 6 | Concepts | SOLID Principle |   |
+|	|	|  |	|
+| 6 | Basic Concepts | SOLID Principle |   |
 |	|	| Page Object Model |   |
-|	|	| Screen Play |   |
 |	|	| Page Factory |   |
+|	|	| Page Factory : Findby |	|
+|	|	| Page Factory : Caching |	|
+|	|	| Page Factory : ByAll |	|
+|	|	| Page Factory : ByChained |	|
+|	|	| Screen Play |   |
+|	|	| Property Based Page Object |   |
+|	|	| Selenium Data Driven Testing |   |
 |	|	| Designing your project based on your UI elements|	|
 | 7 | Architecture | How selenium works |		|
 |	|	| what is selenium & what is not |	|
@@ -98,6 +111,22 @@
 |	|	| Selenium Slave |	|
 |	|	| Selenium Remote Control |	|
 |	|	| Setting up a Selenium Remote Control with VMs |	|
+|	|Test Design| How to design a Automation Tests |	|
+|	|	| V-Diagram of testing  |	|
+|	|	| Test Hierarchy|	|
+|	|	| How to design your tests based on requirements |	|
+|	|	| Prioritize your tests|	|
+|	|	| Test Order|	|
+|	|	| Test Design|	|
+|	|	| Test Reporting|	|
+|	|	| Test Plan & Execution |	|
+|	| Test Framework : TestNG7| What is TestNG & Why we need to use|	|
+|	|	| How TestNG runs the test |	|
+|	|	| Annotations |	|
+|	|	| Annotations Execution Hierarchy |	|
+|	|	| Test Execution Hierarchy|	|
+|	|	| How you know which annotaion to use where |	|
+|	| Test Framework : Junit5|	|	|
 | 8 | Running Tests  | Running test locally |		|
 |	|	| Running Test Remotely |	|
 |	|	| Running Test by remote-control |	|
@@ -114,14 +143,35 @@
 |	|	| Custom Allure @Step Logging |	|
 |	|	| Simple HTML Reporting from log4j|	|
 |	|	| Extend Reports(open sourced) |	|
+|	|	| Taking & Logging failed step Screenshots |	|
+|	|	| Recording Video during tests  |	|
 | 10| Parameters | Managing Environments |	|
 |	|	| Managing Using Properties |	|
 |	|	| Custom Property Loades |	|
 |	|	| Load Property from maven commands |	|
-| 11| Advance Testing| Performance & Security |	|
+| 11| Advance Testing| Performance , Security & more|	|
 |	|	| Navigation Timing JS|	|
 |	|	| Browser MobProxy integration|	|
 |	|	| Proxy Configuration |	|
+|	|	| Regular Expression |	|
+|	|	| Hacking UI elements |	|
+|	|	| Smarter JS waits |	|
+|	|	| Supporting modern JS frameworks |	|
+|	|	| WebdriverJS |	|
+|	|	| Building framework with serenity |	|
+|	|	| Building framework with Yandex http element |	|
+|	|	| Building framework with elementalselenium |	|
+|	|	| Building framework with UI Property |	|
+|	|	| Building RC environment with  zalenium|	|
+|	| Troubleshooting | How to retry failed tests |	|
+|	|	| How to retry failed element locators |	|
+|	|	| How to fail on timeouts  |	|
+|	|	| How to handle failed Exceptions & retry |	|
+|	|	| How to handle problemetic webelement |	|
+|	|	| How to handle big size & long running Ajax responses|	|
+|	|	| How to handle UI crashes|	|
+|	|	| How to handle big size Ajax responses|	|
+
 # Selenium Helpers
 - Selenium IDE
 - ChroPath
@@ -130,4 +180,4 @@
 - [Yandex http element](http://htmlelements.qatools.ru/)
 - [elementalselenium](http://elementalselenium.com/) 
 - [serenity bdd](http://www.thucydides.info/)
-
+- [zalenium](https://opensource.zalando.com/zalenium/)
