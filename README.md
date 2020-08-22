@@ -1,4 +1,4 @@
-# workshops 16/24 hours
+# workshops 7 hours
 workshop plans on different topics on testing
 
 # Daywise Schedule(6-7hr)
